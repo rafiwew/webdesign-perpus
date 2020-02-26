@@ -1,0 +1,44 @@
+.btn-primary {
+    background: #89504E;
+    border: 0;
+    padding: 15px 40px 15px 40px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.btn-primary:hover {
+    background: rgb(107, 65, 63);
+}
+
+.perpusonline h1 {
+    font-family: 'Poppins';
+    font-weight: 700;
+}
+
+.perpusonline p {
+    font-family: 'Poppins';
+    font-weight: 400;
+}
+
+.btn-secondary {
+    background: none;
+    /* border: 1px solid #BCD0E5; */
+    border: 1px solid #89504E;
+    padding: 15px 40px 15px 40px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #89504E;
+}
+
+.btn-secondary:hover {
+    background: none;
+    border: 1px solid rgb(24, 14, 14);
+    color: #89504E;
+}
+
+@media only screen and (max-width: 768px) {
+    .btn-primary, .btn-secondary {
+        margin-top: 10px;
+        margin-left: 0 !important;
+    }
+}
